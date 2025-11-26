@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/responsive.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="chibi" src="./src/images/dancin.gif" alt="Chibi Dance">
+        <h1 class="titulo">Músicas Boas</h1>
+    </header>
+
+    <main class="slider-musical">
+        <button class="btn-seta  btn-voltar" id="btn-voltar">
+        <img src="./src/images/seta.png" alt="Seta Voltar">
+    </button>
+
+    <ul class="musicas">
+        <li class="banner selecionado fundo-1">
+            <div class="informacoes">
+                <h2 class="artista">Ado</h2>
+                <p class="nome-musica">Odo</p>
+            </div>
+            <div class="container-imagem">
+                <a class="imagem-musica" href="https://youtu.be/YnSW8ian29w?si=P_pTrk6EPkcRzY_3" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/images/Ado-Odo.jpg" alt="Ado - Odo">
+                </a>
+            </div>
+
+            <div class="descricao">
+                <H3 class="titulo">Descrição</H3>
+                <p class="dados">Lançada em 27 de abril de 2021, fazendo parte do álbum Kyōgen, “Odo” já conta com mais de 200 milhões de streams no Spotify. No canal oficial da Ado, o clipe de “Odo” possui 233,46 milhões de visualizações.</p>
+            </div>
+        </li>
+        <li class="banner fundo-2">
+            <div class="informacoes">
+                <h2 class="artista">Post Malone</h2>
+                <p class="nome-musica">Circles</p>
+            </div>
+            <div class="container-imagem"><a href="https://youtu.be/wXhTHyIgQ_U?si=3GdOos8r4D83RFWz" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/images/Post-Malone-Circles.jpg" alt="Post Malone - Circles">
+                </a></div>
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="dados">Lançada em 30 de agosto de 2019 como parte do álbum Hollywood’s Bleeding, “Circles” já acumula quase 3 bilhões de streams no Spotify. No YouTube, o clipe oficial da música soma centenas de milhões de visualizações, consolidando-a como um dos maiores sucessos da carreira de Post Malone.</p>
+            </div>
+    </li>
+        <li class="banner fundo-3">
+            <div class="informacoes">
+                <h2 class="artista">Alex Warren</h2>
+                <p class="nome-musica">Eternity</p>
+            </div>
+            <div>
+                <a href="https://youtu.be/jXqf3uqLkkU?si=qjrHiWLoHzF-Knsi" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/images/alex_warren_eternity.png" alt="Alex Warren - Eternity">
+                </a>
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="dados">Lançada em 18 de julho de 2025 como parte do álbum You’ll Be Alright, Kid, a faixa “Eternity” mostra o lado mais emocional de Alex Warren, abordando temas de perda e saudade. No YouTube, o clipe já ultrapassa 20 milhões de visualizações, enquanto o alcance nas plataformas de streaming cresce diariamente, consolidando “Eternity” como um dos maiores sucessos da carreira do artista.</p>
+            </div>
+        </li>
+        <li class="banner fundo-4">
+            <div class="informacoes">
+                <h2 class="artista">Zedd & Foxes</h2>
+                <p class="nome-musica">Clarity</p>
+            </div>
+            <div>
+                <a href="https://youtu.be/IxxstCcJlsc?si=0yZFS_sZlwwliC9j" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/images/clarity_zedd.jpg" alt="Zedd & Foxes - Clarity">
+                </a>
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="dados">Lançada em 1º de fevereiro de 2013 como parte do álbum Clarity, a faixa “Clarity”, com vocais de Foxes, tornou-se um dos maiores sucessos da carreira de Zedd. A música acumula mais de 1 bilhão de streams no Spotify e o videoclipe oficial no YouTube ultrapassa centenas de milhões de visualizações, consolidando-se como um dos hinos eletrônicos mais marcantes da década.</p>
+            </div>
+        </li>
+    </ul>
+
+    <button class="btn-seta" id="btn-avancar">
+        <img src="./src/images/seta.png" alt="Seta avançar">
+    </button>
+    </main>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>

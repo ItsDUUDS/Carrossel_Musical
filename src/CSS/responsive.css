@@ -1,0 +1,33 @@
+@media (max-widht: 620px){
+    .slider-musical{
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .musicas{
+        height: 480px;
+    }
+
+    .banner .container-imagem{
+        max-height: 230px;
+    }
+
+    .banner .informacoes .artista{
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .banner .informacoes .nome-musica{
+        font-size: 14px;
+    }
+}
+
